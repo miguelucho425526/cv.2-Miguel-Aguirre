@@ -1,22 +1,21 @@
-.perfil {
+h3 {
   padding: 20px;
   background-color: #f30a0a;
   border-radius: 10px;
   margin: 20px;
 }
 
-.perfil h2 {
-  color: #333;
+h4 {
+  color: #aa0e0e;
   font-size: 2rem;
   margin-bottom: 10px;
 }
-
-.perfil ul {
+ ul {
   list-style-type: square;
   padding-left: 20px;
 }
 
-.perfil li {
+ li {
   font-size: 1.1rem;
   margin-bottom: 5px;
 }
