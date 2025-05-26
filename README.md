@@ -6,7 +6,7 @@ Este es un proyecto de currículum en línea (CV) creado con **Vite** y **React*
 
 🖼️ Vista Previa
 
-![captura de pantalla del CV](./src/captura.png).
+![captura de pantalla del CV](./CV-PROJECT/src/captura.png).
 
 ## 📁 Estructura del proyecto
 src/
