@@ -2,6 +2,12 @@
 
 Este es un proyecto de currículum en línea (CV) creado con **Vite** y **React**, usando componentes reutilizables y estilos personalizados con CSS.
 
+
+
+🖼️ Vista Previa
+
+![captura de pantalla del CV](./src/captura.png).
+
 ## 📁 Estructura del proyecto
 src/
 ├── components/
@@ -28,9 +34,5 @@ React
 Vite
 
 CSS
-
-🖼️ Vista Previa
-
-![captura de pantalla del CV](./src/captura.png).
 
 
