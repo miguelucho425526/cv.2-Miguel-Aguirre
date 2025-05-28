@@ -1,12 +1,10 @@
-# CV - Portafolio Personal
+# CV - MIGUEL-AGUIRRE
 
-Este es un proyecto de currículum en línea (CV) creado con **Vite** y **React**, usando componentes reutilizables y estilos personalizados con CSS.
-
-
+En este ejercicio vamos a cambiar el contenido de Experiencia.jsx,Educacion.jsx y StackTecnologias.jsx aplicandoles renderizados condicional y de listas
 
 🖼️ Vista Previa
 
-![captura de pantalla del CV](./CV-PROJECT/src/captura.png).
+![captura de pantalla del CV](./CV-PROJECT/src/Capturan.png).
 
 ## 📁 Estructura del proyecto
 src/
