@@ -1,74 +1,93 @@
 export default function Experiencia() {
-  const experiencias = [
+  const experiencia = [
     {
-      cargo: "Desarrollador de Software",
-      empresa: "NASA",
-      año: "2022–2024",
-      descripcion: "Desarrollo de sistemas de monitoreo satelital en tiempo real."
+      id: 1,
+      puesto: "Desarrollador Full Stack",
+      empresa: "Navisoft Gaming",
+      periodo: "2022-2024",
+      descripcion: "Diseño de plataformas web para videojuegos y gestión de base de datos."
     },
     {
-      cargo: "Ingeniero de Software",
-      empresa: "Google",
-      año: "2015–2020",
-      descripcion: "Diseño de algoritmos de búsqueda y optimización de rendimiento web."
+      id: 2,
+      puesto: "Instructor TIC",
+      empresa: "SENA",
+      periodo: "2020-2022",
+      descripcion: "Formación en desarrollo web y buenas prácticas de programación."
     },
     {
-      cargo: "Desarrollador Full Stack",
-      empresa: "Amazon",
-      año: "2020–2022",
-      descripcion: "Creación de microservicios y mantenimiento de infraestructura en AWS."
+      id: 3,
+      puesto: "Frontend Developer",
+      empresa: "SoftTech",
+      periodo: "2021-2023",
+      descripcion: "Implementación de interfaces en React y optimización de rendimiento."
     },
     {
-      cargo: "Líder de Proyecto",
-      empresa: "StartTech",
-      año: "2019–2021",
-      descripcion: "Gestión de equipo ágil y coordinación de entregables para app fintech."
+      id: 4,
+      puesto: "Backend Developer",
+      empresa: "DataCore",
+      periodo: "2019-2021",
+      descripcion: "Desarrollo de microservicios en Node.js y mantenimiento de APIs."
     },
     {
-      cargo: "Diseñador UI/UX",
-      empresa: "Freelancer",
-      año: "2018–2019",
-      descripcion: "Diseño de interfaces centradas en la experiencia de usuario para apps móviles."
+      id: 5,
+      puesto: "Líder Técnico",
+      empresa: "InnovApp",
+      periodo: "2023",
+      descripcion: "Supervisión de equipos de desarrollo ágil en proyectos móviles."
     },
     {
-      cargo: "Practicante Frontend",
-      empresa: "Globant",
-      año: "2017",
-      descripcion: "Implementación de componentes React reutilizables para dashboards empresariales."
+      id: 6,
+      puesto: "Ingeniero de Software",
+      empresa: "Tecsis",
+      periodo: "2018-2020",
+      descripcion: "Análisis, diseño y desarrollo de sistemas empresariales personalizados."
     },
     {
-      cargo: "Desarrollador Backend",
-      empresa: "Mercado Libre",
-      año: "2016–2017",
-      descripcion: "Desarrollo de APIs REST para sistema de pagos online."
+      id: 7,
+      puesto: "Analista QA",
+      empresa: "Visionary IT",
+      periodo: "2017-2018",
+      descripcion: "Pruebas automatizadas y reporte de errores en desarrollo web."
     },
     {
-      cargo: "Consultor Tecnológico",
-      empresa: "EY",
-      año: "2021–2022",
-      descripcion: "Asesoramiento técnico en implementación de soluciones digitales para clientes."
-    },
-    {
-      cargo: "Analista QA",
-      empresa: "Accenture",
-      año: "2014–2015",
-      descripcion: "Diseño y ejecución de pruebas para asegurar calidad en desarrollo ágil."
-    },
-    {
-      cargo: "Desarrollador Frontend",
+      id: 8,
+      puesto: "Freelancer Web",
       empresa: "Proyecto Personal",
-      año: "2023",
-      descripcion: "Desarrollo de portafolio personal con React y despliegue en Netlify."
+      periodo: "2016-2017",
+      descripcion: "Diseño y desarrollo de sitios web para clientes independientes."
+    },
+    {
+      id: 9,
+      puesto: "Diseñador UI/UX",
+      empresa: "Creativa Studio",
+      periodo: "2015-2016",
+      descripcion: "Creación de prototipos y flujos de usuario para apps móviles."
+    },
+    {
+      id: 10,
+      puesto: "Soporte Técnico",
+      empresa: "IT Solutions",
+      periodo: "2014-2015",
+      descripcion: "Atención a usuarios y mantenimiento de equipos informáticos."
     }
   ];
+
+  if (experiencia.length === 0) {
+    return (
+      <section>
+        <h3>Experiencia Profesional</h3>
+        <p>No se ha registrado experiencia profesional.</p>
+      </section>
+    );
+  }
 
   return (
     <section>
       <h3>Experiencia Profesional</h3>
       <ul>
-        {experiencias.map((exp, index) => (
-          <li key={index}>
-            <strong>{exp.cargo}</strong> – {exp.empresa} ({exp.año})<br />
+        {experiencia.map((exp) => (
+          <li key={exp.id}>
+            <strong>{exp.puesto}</strong> - {exp.empresa} ({exp.periodo})<br />
             <em>{exp.descripcion}</em>
           </li>
         ))}
@@ -76,3 +95,4 @@ export default function Experiencia() {
     </section>
   );
 }
+
