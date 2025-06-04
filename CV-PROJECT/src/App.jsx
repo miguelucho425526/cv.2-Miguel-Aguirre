@@ -9,14 +9,6 @@ import {
   habilidades
 } from "./data/cvData";
 
-import CabeceraCV from "./components/CabeceraCV.jsx";
-import Perfil from "./components/perfil.jsx";
-import Educacion from "./components/educacion.jsx";
-import Experiencia from "./components/experiencia.jsx";
-import StackTecnologias from "./components/StackTecnologias.jsx";
-import proyectos from "./components/proyectos.jsx";
-import Habilidades from "./components/habilidades.jsx";
-
 function App() {
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
