@@ -1,22 +1,16 @@
 import "./cabecera.css";
 import { CabeceraCv } from '../data/cvData';
-const user = {
-    nombre: "Miguel Angel Aguirre Moreno",
-    Cargo: "Desarrollo Front-End jr",
-    correo: "aguirremorenomiguelangel2008@gmail.com",
-    ubicacion: "Medellin",
-    telefono: "3246361100"
-};
+import React from "react";
 
-export default function CabeceraCv(){
-    return (
-        <header>
-            <h1>{user.nombre}</h1>
-            <h2>{user.Cargo}</h2>
-            <h3>{user.correo}</h3>
-            <h4>{user.ubicacion}</h4>
-            <h5>{user.telefono}</h5>
-        </header>
-    );
+export default function CabeceraCV({ nombre, cargo, correo, ubicacion, telefono}) {
+  return (
+    <header>
+      <h1>{nombre}</h1>
+      <h2>{cargo}</h2>
+      <h3>Correo{correo}</h3>
+      <h4>Ubicacion{ubicacion}</h4>
+      <h5>Telefono{telefono}</h5>
+    </header>
+  );
 }
 
