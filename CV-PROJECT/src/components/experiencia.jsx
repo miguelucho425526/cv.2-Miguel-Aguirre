@@ -95,4 +95,5 @@ export default function Experiencia() {
     </section>
   );
 }
+import { experiencia } from '../data/cvData';
 

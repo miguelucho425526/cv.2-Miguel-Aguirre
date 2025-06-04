@@ -26,3 +26,4 @@ export default function Perfil() {
     </section>
   );
 }
+import { perfil } from '../data/cvData';

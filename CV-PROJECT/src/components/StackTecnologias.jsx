@@ -49,3 +49,4 @@ export default function StackTecnologias() {
     </section>
   );
 }
+import { stackTecnologias } from '../data/cvData';

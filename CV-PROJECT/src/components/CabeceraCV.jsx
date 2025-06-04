@@ -19,3 +19,4 @@ export default function CabeceraCv(){
         </header>
     );
 }
+import { CabeceraCv } from '../data/cvData';

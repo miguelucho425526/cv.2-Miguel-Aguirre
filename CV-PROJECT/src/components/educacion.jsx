@@ -75,3 +75,4 @@ export default function Educacion() {
     </section>
   );
 }
+import { educacion } from "../data/cvData";
