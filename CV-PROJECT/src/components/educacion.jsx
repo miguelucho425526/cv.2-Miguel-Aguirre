@@ -1,3 +1,5 @@
+import { educacion } from "../data/cvData";
+
 export default function Educacion() {
   const educacion = [
     {
@@ -75,4 +77,4 @@ export default function Educacion() {
     </section>
   );
 }
-import { educacion } from "../data/cvData";
+

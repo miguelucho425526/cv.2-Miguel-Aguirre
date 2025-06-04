@@ -1,5 +1,5 @@
 import "./cabecera.css";
-
+import { CabeceraCv } from '../data/cvData';
 const user = {
     nombre: "Miguel Angel Aguirre Moreno",
     Cargo: "Desarrollo Front-End jr",
@@ -19,4 +19,4 @@ export default function CabeceraCv(){
         </header>
     );
 }
-import { CabeceraCv } from '../data/cvData';
+

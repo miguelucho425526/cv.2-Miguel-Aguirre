@@ -1,3 +1,4 @@
+import { stackTecnologias } from '../data/cvData';
 export default function StackTecnologias() {
   const tecnologias = [
     { id: 1, nombre: "React", tipo: "frontend" },
@@ -49,4 +50,4 @@ export default function StackTecnologias() {
     </section>
   );
 }
-import { stackTecnologias } from '../data/cvData';
+

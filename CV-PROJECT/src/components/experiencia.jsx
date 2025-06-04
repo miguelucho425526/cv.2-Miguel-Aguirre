@@ -1,3 +1,4 @@
+import { experiencia } from '../data/cvData';
 export default function Experiencia() {
   const experiencia = [
     {
@@ -95,5 +96,5 @@ export default function Experiencia() {
     </section>
   );
 }
-import { experiencia } from '../data/cvData';
+
 

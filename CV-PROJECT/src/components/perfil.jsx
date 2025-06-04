@@ -1,5 +1,5 @@
 import "./perfil.css"; 
-
+import { perfil } from '../data/cvData';
 const perfil = {
   titulo: "Perfil",
     descripcion: "Soy un desarrollador web apasionado por crear aplicaciones interactivas y eficientes. Me especializo en el desarrollo frontend utilizando tecnologías modernas como React, JavaScript y CSS. Siempre estoy buscando aprender nuevas habilidades y mejorar mis conocimientos en el campo del desarrollo web.",
@@ -26,4 +26,4 @@ export default function Perfil() {
     </section>
   );
 }
-import { perfil } from '../data/cvData';
+
