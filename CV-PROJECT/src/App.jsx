@@ -18,22 +18,22 @@ function App() {
         profesion={CabeceraCv.profesion}
       />
       {/* Perfil */}
-      <Perfil texto={perfil.texto} />
+      <perfil texto={perfil.texto} />
 
       {/* Educación */}
-      <Educacion estudios={educacion} />
+      <educacion estudios={educacion} />
 
       {/* Experiencia */}
-      <Experiencia trabajos={experiencia} />
+      <experiencia trabajos={experiencia} />
 
       {/* Stack de Tecnologías */}
       <StackTecnologias tecnologias={StackTecnologias} />
 
       {/* Proyectos (nuevo componente) */}
-      <Proyectos proyectos={proyectos} />
+      <proyectos proyectos={proyectos} />
 
       {/* Habilidades (nuevo componente) */}
-      <Habilidades habilidades={habilidades} />
+      <habilidades habilidades={habilidades} />
     </div>
   );
 }
