@@ -4,9 +4,9 @@ import {
   perfil,
   educacion,
   experiencia,
-  stackTecnologias,
+  StackTecnologias,
   proyectos,
-  habilidades
+  habilidades,
 } from "./data/cvData";
 
 function App() {
@@ -28,7 +28,7 @@ function App() {
       <Experiencia trabajos={experiencia} />
 
       {/* Stack de Tecnologías */}
-      <StackTecnologias tecnologias={stackTecnologias} />
+      <StackTecnologias tecnologias={StackTecnologias} />
 
       {/* Proyectos (nuevo componente) */}
       <Proyectos proyectos={proyectos} />

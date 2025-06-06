@@ -1,7 +1,7 @@
-import { stackTecnologias } from '../data/cvData';
+import { StackTecnologias } from '../data/cvData';
 import React from "react";
 
-export default function StackTecnologias() {
+export default function stacktecnologias() {
   const tecnologias = [
     { id: 1, nombre: "React", tipo: "frontend" },
     { id: 2, nombre: "Node.js", tipo: "backend" },
