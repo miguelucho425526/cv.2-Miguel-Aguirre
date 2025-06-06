@@ -13,7 +13,7 @@ function App() {
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
       {/* Cabecera */}
-      <CabeceraCV
+      <CabeceraCv
         nombre={CabeceraCv.nombre}
         profesion={CabeceraCv.profesion}
       />
