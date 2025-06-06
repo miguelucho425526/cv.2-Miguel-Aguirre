@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  cabecera,
+  CabeceraCv,
   perfil,
   educacion,
   experiencia,
@@ -14,10 +14,9 @@ function App() {
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
       {/* Cabecera */}
       <CabeceraCV
-        nombre={cabecera.nombre}
-        profesion={cabecera.profesion}
+        nombre={CabeceraCv.nombre}
+        profesion={CabeceraCv.profesion}
       />
-
       {/* Perfil */}
       <Perfil texto={perfil.texto} />
 
