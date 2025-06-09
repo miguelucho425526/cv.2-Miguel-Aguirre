@@ -1,6 +1,6 @@
 // src/data/cvData.js
 
-export const CabeceraCv = {
+export const cabecera = {
   nombre: "Miguel Angel Aguirre Moreno",
     Cargo: "Desarrollo Front-End jr",
     correo: "aguirremorenomiguelangel2008@gmail.com",
