@@ -1,8 +1,9 @@
 import "./cabecera.css";
-import { CabeceraCv } from '../data/cvData';
+import { cabecera } from '../data/cvData';
 import React from "react";
 
-export default function CabeceraCV({ nombre, cargo, correo, ubicacion, telefono}) {
+export default function CabeceraCV() {
+  const { nombre, cargo, correo, ubicacion, telefono } = cabecera;
   return (
     <header>
       <h1>{nombre}</h1>
