@@ -4,7 +4,7 @@ import {
   perfil,
   educacion,
   experiencia,
-  stackTecnologias as tecnologiasIniciales,
+  StackTecnologias as tecnologiasIniciales, 
   proyectos,
   habilidades,
 } from "./data/cvData";
