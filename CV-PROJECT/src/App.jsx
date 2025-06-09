@@ -1,39 +1,45 @@
-import React from "react";
+import React, { useState } from "react";
 import {
-  CabeceraCv,
+  cabecera,
   perfil,
   educacion,
   experiencia,
-  StackTecnologias,
+  stackTecnologias as tecnologiasIniciales,
   proyectos,
   habilidades,
 } from "./data/cvData";
 
+import CabeceraCV from "./components/CabeceraCV";
+import Perfil from "./components/perfil";
+import Educacion from "./components/educacion";
+import Experiencia from "./components/experiencia";
+import StackTecnologias from "./components/StackTecnologias";
+import Proyectos from "./components/proyectos";
+import ToggleHabilidades from "./components/ToggleHabilidades";
+import FormularioTecnologia from "./components/FormularioTecnologia";
+
 function App() {
+  const [tecnologias, setTecnologias] = useState(tecnologiasIniciales);
+
+  const agregarTecnologia = (nueva) => {
+    setTecnologias((prev) => [...prev, nueva]);
+  };
+
   return (
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
-      {/* Cabecera */}
-      <CabeceraCv
-        nombre={CabeceraCv.nombre}
-        profesion={CabeceraCv.profesion}
-      />
-      {/* Perfil */}
-      <perfil texto={perfil.texto} />
+      <CabeceraCV {...cabecera} />
+      <Perfil {...perfil} />
+      <Educacion estudios={educacion} />
+      <Experiencia trabajos={experiencia} />
+      <StackTecnologias tecnologias={tecnologias} />
 
-      {/* Educación */}
-      <educacion estudios={educacion} />
+      {/* Componente con evento + estado */}
+      <FormularioTecnologia onAgregar={agregarTecnologia} />
 
-      {/* Experiencia */}
-      <experiencia trabajos={experiencia} />
+      {/* Componente con renderizado condicional */}
+      <ToggleHabilidades habilidades={habilidades} />
 
-      {/* Stack de Tecnologías */}
-      <StackTecnologias tecnologias={StackTecnologias} />
-
-      {/* Proyectos (nuevo componente) */}
-      <proyectos proyectos={proyectos} />
-
-      {/* Habilidades (nuevo componente) */}
-      <habilidades habilidades={habilidades} />
+      <Proyectos proyectos={proyectos} />
     </div>
   );
 }
