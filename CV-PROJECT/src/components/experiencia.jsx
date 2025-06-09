@@ -1,6 +1,4 @@
-import { experiencia } from '../data/cvData';
 import React from "react";
-
 export default function Experiencia({ experiencia }) {
   if (!experiencia || experiencia.length === 0) {
     return (
@@ -27,5 +25,4 @@ export default function Experiencia({ experiencia }) {
     </section>
   );
 }
-
 
