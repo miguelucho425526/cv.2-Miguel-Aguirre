@@ -36,7 +36,7 @@ mi-app-react/
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/miguelucho425526/cv-props-react-miguel-aguirre
+git clone https://github.com/miguelucho425526/cv.2-Miguel-Aguirre
 
 🧠 Tecnologías
 React
