@@ -29,8 +29,8 @@ function App() {
     <div style={{ maxWidth: "800px", margin: "0 auto", padding: "20px" }}>
       <CabeceraCV {...cabecera} />
       <Perfil {...perfil} />
-      <Educacion estudios={educacion} />
-      <Experiencia trabajos={experiencia} />
+     <Educacion educacion={educacion} />
+      <Experiencia experiencia={experiencia} />
       <StackTecnologias tecnologias={tecnologias} />
 
       {/* Componente con evento + estado */}
