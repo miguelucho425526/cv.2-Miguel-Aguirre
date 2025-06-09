@@ -1,7 +1,5 @@
-import { educacion } from "../data/cvData";
 import React from "react";
-
-export default function educacion({ educacion }) {
+export default function Educacion({ educacion }) {
   if (!educacion || educacion.length === 0) {
     return (
       <section>
